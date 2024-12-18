@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contener{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-color: cadetblue; */
+    flex-direction: column;
+    background-image: url(./profile1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+h1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    flex-direction: column;
+    color: white;
+}
+
+.box{
+    width:55%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornsilk;
+    color: white;
+    margin-top: 35px;
+}
+input{
+    margin-top: 50px;
+    width: 400px;
+    height: 35px;
+    background-color:darkcyan ;
+    color: white;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 3px solid cadetblue;
+ 
+}
+button{
+    width: 130px;
+    height: 35px;
+    margin-top: 25px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 3px solid cadetblue;
+
+}
+
+
+.card{
+    width: 94%;
+    height: 300px;
+    background-color: darkcyan;
+    /* background-color: cadetblue;/ */
+    margin-top: 50px;
+    display: flex;
+
+    /* justify-content: space-evenly; */
+}
+.userprofile{
+    width: 100%;
+    height: 400px;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   font-size: 25px;
+   padding-left: 20px;
+}
